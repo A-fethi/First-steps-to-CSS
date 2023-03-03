@@ -1,0 +1,52 @@
+.hi {
+    padding: 30px;
+    border: solid 5px #FF5722;
+}
+
+p {
+    padding: inherit;
+    border: inherit;
+    background-color: #eee;
+    text-align: center;
+}
+
+html {
+    font-size: 20px;
+}
+
+.pq,
+.no,
+.be,
+.qq,
+.aa,
+.bb {
+    text-align: center;
+}
+
+.pq {
+    font-family: 'open sans';
+    font-style: italic;
+    font-weight: 300;
+}
+
+.no {
+    font-family: 'cairo';
+    font-weight: 700;
+}
+
+.be {
+    font-family: 'jomhuria';
+    font-weight: 400;
+}
+
+.qq {
+    font-size: 2.5rem;    
+}
+
+.aa {
+    font-size: 2rem;
+}
+
+.bb {
+    font-size: 1.5rem;
+}

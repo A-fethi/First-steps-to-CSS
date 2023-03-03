@@ -1,0 +1,65 @@
+.parent {
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #eee;
+    width: 1000px;
+}
+
+.ch0,
+.ch1,
+.ch2,
+.ch3 {
+    background-color: #ccc;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ch0 {
+    width: calc(100% - 30px);
+}
+
+.ch1 {
+    width: calc((100% - 60px) / 3);
+}
+
+.ch2 {
+    width: calc((100% - 45px) / 2);
+}
+
+    .ch3 {
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+} 
+
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    color: black;
+}
+
+.normal {
+    background-color: rgb(179, 179, 179);
+}
+.one {
+    background-color: rgb(179, 179, 179, 10%);
+}
+
+.two {
+    background-color: rgb(179, 179, 179);
+    opacity: .1;
+}

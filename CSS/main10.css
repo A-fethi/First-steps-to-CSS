@@ -1,0 +1,211 @@
+.green,
+.red,
+.blue,
+.black {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.green {
+    background-color: #009688;
+    z-index: 3;
+    left: 30px;
+    top: 30px;
+}
+
+.red {
+    background-color: #F44336;
+    z-index: 4;
+    left: 40px;
+    top: 40px;
+}
+
+.blue {
+    background-color: #03A9F4;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+.black {
+    background-color: #333333;
+    z-index: 1;
+    left: 20px;
+    top: 30px;
+}
+
+/* break line : new exercice */
+.nn {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    background-color: #EEEEEE;
+    padding: 20px;
+    margin: 50px auto;
+    border-style: solid;
+    border-color: #F44336 #2196F3;
+    position: relative;
+}
+
+.top-left,
+.bottom-left,
+.top-right,
+.bottom-right {
+    color: white;
+    width: 30px;
+    background: #2196F3;
+    position: absolute;
+    text-align: center;
+}
+
+.top-left {
+    top: -10px;
+    left: -17px;
+    box-shadow: 3px 0px #F44336;
+}
+
+.bottom-left {
+    bottom: -10px;
+    left: -17px;
+    box-shadow: 3px 0px #F44336;
+}
+
+.top-right {
+    top: -10px;
+    right: -17px;
+    box-shadow: -3px 0px #F44336;
+}
+
+.bottom-right {
+    bottom: -10px;
+    right: -17px;
+    box-shadow: -3px 0px #F44336;
+}
+
+/* break line : new exercice */
+
+.parent {
+    width: 400px;
+    margin: 5px auto;
+}
+
+.html,
+.css,
+.js {
+    list-style-type: none;
+    background-color: #eee;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.html ol,
+.css ol {
+    padding-left: 28px;
+}
+
+.html ol li,
+.css ol li,
+.js ul li {
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFFFFF;
+}
+
+.js ul {
+    padding-left: 0px;
+}
+.js ul li {
+    list-style-position: inside;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 700px;
+    margin: auto;
+    border-bottom: #009688 solid;
+}
+
+caption {
+    font-weight: bold;
+    margin: 15px;
+}
+
+thead {
+    color: white;
+    background-color: #404040;
+}
+
+tbody {
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.one,
+.two {
+    border: none;
+    color: white;
+    width: 60px;
+    height: 25px;
+}
+
+.one {
+    background-color: #03A9F4;
+}
+
+.two {
+    background-color: #E91E63;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 700px;
+    margin: auto;
+    border-bottom: #009688 solid;
+}
+
+caption {
+    font-weight: bold;
+    margin: 15px;
+}
+
+thead {
+    color: white;
+    background-color: #404040;
+}
+
+tbody {
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.one,
+.two {
+    border: none;
+    color: white;
+    width: 60px;
+    height: 25px;
+}
+
+.one {
+    background-color: #03A9F4;
+}
+
+.two {
+    background-color: #E91E63;
+}
