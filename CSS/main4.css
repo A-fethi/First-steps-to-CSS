@@ -1,0 +1,49 @@
+div {
+    display: inline-block;
+}
+
+.One {
+    background-color: #eee;
+    padding: 30px;
+    margin: 30px;
+    border: 5px;
+    border-style: solid;
+    border-color: red;
+    outline: black solid 5px;
+}
+.Two {
+    background-color: #eee;
+    padding: 30px;
+    margin: 30px;
+    border: 5px;
+    border-style: solid;
+    border-color: blue green;
+    outline: black solid 5px;
+}
+.Three {
+    background-color: #eee;
+    padding: 30px;
+    margin: 30px;
+    border: 5px;
+    border-style: dashed;
+    border-color: red green blue yellow;
+    outline: black solid 5px;
+}
+
+/* .dd {
+    width: 400px;
+}
+
+.aa {
+    background-color: #eee;
+    border-left: 5px solid ;
+}
+
+.bb {
+    background-color: #eee;
+    visibility: hidden;
+}
+
+.cc {
+    background-color: #eee;
+} */

@@ -1,0 +1,27 @@
+.dd {
+    width: 400px;
+    display: inline-block;
+}
+
+.aa {
+    background-color: #eee;
+    border-left: 5px solid rgb(255, 3, 121);
+    padding: 10px;
+    margin: 10px;
+    outline: #eee solid 10px;
+}
+
+.bb {
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+    visibility: hidden;
+}
+
+.cc {
+    background-color: #eee;
+    border-left: 5px solid rgb(4, 216, 205);
+    padding: 10px;
+    margin: 10px;
+    outline: #eee solid 10px;
+}
