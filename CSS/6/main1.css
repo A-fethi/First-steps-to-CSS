@@ -1,0 +1,18 @@
+div {
+    width: 400px;
+    margin: auto;
+    background-color: #eeeeee !important;
+    color: transparent !important;
+    text-align: center;
+    font-size: 20px !important;
+    border: none !important;
+    position: relative;
+}
+
+div::before {
+    content: "Elzero";
+    color: black;
+    position: absolute;
+    float: left;
+    left: 200px;
+}
