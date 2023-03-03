@@ -1,0 +1,12 @@
+div {
+    background-color: #EEEEEE;
+    width: 300px;
+    height: 60px;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 55px;
+}
+
+div:empty {
+    background-color: red;
+}
